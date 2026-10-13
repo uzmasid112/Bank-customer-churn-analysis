@@ -113,7 +113,7 @@ bank-customer-churn-analysis/
 
 ## How to run it
 
-- **Python:** open `python/bank_churn_analysis.ipynb` in Jupyter and run all cells (needs `pandas` and `matplotlib`). It reads `../data/Churn_Modelling.csv` and writes the files in `outputs/`.
+- **Python:** open `python/bank_churn_analysis.ipynb` in Jupyter and run all cells (install with `pip install -r requirements.txt`). It reads `../data/Churn_Modelling.csv` and writes the files in `outputs/`.
 - **SQL:** open `sql/churn_analysis.sql` in SQL Server Management Studio, update the `BULK INSERT` file path to where you saved `data/Churn_Modelling.csv`, and run the sections in order.
 - **Excel:** open `excel/Bank_Churn_Dashboard.xlsx` (Excel 365 or 2021+ for `XLOOKUP` and dynamic arrays). Use the slicers on the Dashboard sheet, or change the save rate on the What-If sheet.
 - **Power BI:** open `powerbi/Bank_Churn_Dashboard.pbix` in Power BI Desktop.
